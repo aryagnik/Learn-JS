@@ -1,7 +1,9 @@
 // Here we will learn about Variables.
 
 console.log(b);
+// console.log(c);
 
+// let c = 10; // It will show an error while var won't.
 var b = 10;
 
 const accountNum = 123223;
