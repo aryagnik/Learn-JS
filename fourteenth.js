@@ -40,3 +40,9 @@ console.log(arr1);
 console.log(arr2);
 
 console.log(animals.hasOwnProperty("fastest"));
+
+
+const {fastest: fast} = animals;
+// So by this if we want to print cheetah then we just have to write
+// fast instead of animals.fastest
+console.log(fast);  
