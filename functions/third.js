@@ -52,7 +52,7 @@ const addTwo = (num1,num2)=>{
 }
 addTwo(4,3);
 
-// 2nd way without parenthesis: Implicit declaration
+// 2nd way without {}: Implicit declaration
 const addThree = (num1,num2,num3) => num1+num2+num3;   // Here no need to write return.
 
 console.log(addThree(1,2,3));
