@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li>Javascript</li>
+    </ul>
+</body>
+<script>
+    function addLanguage(language){
+        const li = document.createElement('li');
+        li.innerHTML = language;
+        document.querySelector('ul').appendChild(li);   
+    }
+    addLanguage("Python");
+
+    // 2nd method:
+
+    function addLan(language){
+        const li = document.createElement('li');
+        const text = document.createTextNode(language);
+        const addText = li.appendChild(text);
+        document.querySelector('ul').appendChild(li);
+    }
+    addLan("C");
+
+
+    // Edit
+
+    const second = document.querySelector('li:nth-child(2)')
+    console.log(second);
+    <!-- second.innerHTML = "mojo"; -->
+    const newli = document.createElement('li');
+    newli.textContent = "Mojo";
+    second.replaceWith(newli);
+
+
+    // Remove
+
+    document.querySelector("li:nth-child(3)").remove();
+</script>
+</html>
