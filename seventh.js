@@ -1,6 +1,6 @@
 // Here we will talk about Stack and Heap.
 
-// All the variables which we make and are Primitive, they all go to Stack while all the Non-Primitive ones goes to Heap.
+// All the variables which we make and are Primitive, they all go to Stack while all the Non-Primitive ones go to Heap.
 
 // When we try to take a value already stored in stack then stack returns us the copy of that value while heap returns us the reference to that value.
 

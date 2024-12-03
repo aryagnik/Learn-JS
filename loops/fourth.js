@@ -118,7 +118,7 @@ console.log(firstTask);
 
 
 
-// Map: The primary purpose of the filter method is to create a new array with elements that pass a specified test. It doesn't perform transformations or operations on the elements themselves, like addition or other arithmetic operations. For that, you would use the map method.
+// filter: The primary purpose of the filter method is to create a new array with elements that pass a specified test. It doesn't perform transformations or operations on the elements themselves, like addition or other arithmetic operations. For that, you would use the map method.
 
 const nums1 = [1,2,3,4,5,6,7,8,9,10];
 const nums2 = nums1.map((item)=>{
